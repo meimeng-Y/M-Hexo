@@ -12,7 +12,7 @@ categories:
 ```shell
 ip addr
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171659621.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171659621.png)
 
 >
 >ens33 为网卡名（根据实际的情况，看你显示的是什么）
@@ -26,7 +26,7 @@ cd /etc/sysconfig/network-scripts
 ```
 ls
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171718578.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171718578.png)
 
 >**一般为ifcfg-enoxxxxxx**
 >xxxx 一般为一串数字
@@ -56,7 +56,7 @@ DNS2=8.8.8.4
 > IPADDR=192.168.网段.地址
 >> 网段是子网IP设置的网段
 >>> 网段
->>> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171852208.png)
+>>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171852208.png)
 >>> 
 
 >> 地址可以填100 - 240 的值，不和其他虚拟机的IP地址重复即可
@@ -68,8 +68,8 @@ DNS2=8.8.8.4
 
 > 网关 GATEWAY
 > 看你虚拟机的网关配置是什么
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171904654.png)
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171905791.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171904654.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171905791.png)
 >> 设置成一样的即可
 
 > NDS服务器 NDS1和DN2
@@ -78,6 +78,6 @@ DNS2=8.8.8.4
 >> DNS2=8.8.8.4
 
 #### 6. 配置完成如图：
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171728193.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305171728193.png)
 
 > 理解后操作

@@ -16,7 +16,7 @@ categories:
 <u>**未对**</u>子盒子设置侧轴对齐方式=即采用默认值,align-self:stretch;
 
 > 结果：子盒子大小为<u>**自身宽高大小**</u>
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181548684.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181548684.png)
 
 ## 2. 
 父盒子有<u>**display:flex**</u>;父盒子<u>**有高度**</u>
@@ -26,7 +26,7 @@ categories:
 <u>**对**</u>子盒子设置侧轴对齐方式align-self:center;
 
 >结果：子盒子大小为<u>**自身宽高大小**</u>
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181550123.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181550123.png)
 
 ## 3. 
 父盒子有<u>**display:flex**</u>;父盒子有高度
@@ -36,7 +36,7 @@ categories:
 <u>**未对**</u>子盒子设置侧轴对齐方式=即采用默认值,align-self:stretch;
 
 > 结果：子盒子<u>**高度**</u>在侧轴拉伸到<u>**和父盒子一样高**</u>
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181554188.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181554188.png)
 
 ## 4.
 父盒子有<u>**display:flex**</u>;父盒子<u>**有高度**</u>
@@ -90,7 +90,7 @@ categories:
      
     </html>
 ```
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181601614.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181601614.png)
 
 ## 5.
 父盒子有<u>**display:flex**</u>;父盒子<u>**有高度**</u>
@@ -100,7 +100,7 @@ categories:
 <u>**未对**</u>子盒子设置侧轴对齐方式=即采用默认值,align-self:stretch;
 
 > 结果：子盒子<u>**高度**</u>在侧轴拉伸到和父盒子<u>**一样高**</u>，<u>**宽度和内容一样宽**</u>
-> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181603562.png)
+> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181603562.png)
 
 
 ## 6.
@@ -156,4 +156,4 @@ categories:
      
     </html>
 ```
->> ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181606008.png)
+>> ![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305181606008.png)

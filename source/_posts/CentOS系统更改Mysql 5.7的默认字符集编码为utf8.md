@@ -14,7 +14,7 @@ categories:
 ```sql
 show variables like '%char%';
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172242872.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172242872.png)
 
 可以看到目前一部分默认的字符集编码为**latin1**。
 
@@ -25,7 +25,7 @@ cp /etc/my.cnf /etc/my.cnf.bak
 ```
 > 防止改坏了
 > 
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172245102.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172245102.png)
 
 ### 2. 修改文件
 ```sh
@@ -49,7 +49,7 @@ default-character-set=utf8		//新增配置项
 default-character-set=utf8		//新增配置项
 ```
 修改后的文件
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172248465.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172248465.png)
 
 ### 3. 重启mysql服务
 ```sh 
@@ -63,5 +63,5 @@ service mysqld restart
 ```sql
 show variables like '%char%';
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172253790.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172253790.png)
 完成

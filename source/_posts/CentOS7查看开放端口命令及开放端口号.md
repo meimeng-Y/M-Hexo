@@ -32,11 +32,11 @@ firewall-cmd --zone= public --query-port=80/tcp
 ```shell
 firewall-cmd --state
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161946013.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161946013.png)
 ```shell
 systemctl status firewalld
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161946459.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161946459.png)
 #### 7. 开启防火墙
 ```shell
 systemctl start firewalld
@@ -54,11 +54,11 @@ systemctl start firewalld.service
 ```shell
 firewall-cmd --reload
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161944369.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161944369.png)
 ```shell
 systemctl restart firewalld
 ```
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161944332.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161944332.png)
 
 #### 9. 设置开机启动防火墙
 ```shell

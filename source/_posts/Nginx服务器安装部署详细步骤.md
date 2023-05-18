@@ -90,7 +90,7 @@ make
 make install
 ```
 执行完成**make install**指令后，可以将工作目录定位到我们的安装目录，也就是上述的 **/opt/Nginx/Nginx-1.16.1_install**文件夹，通过**ls -l**指令，可以看到该文件夹下出现以下几个文件夹：
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161916958.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161916958.png)
 conf：该目录存放了Nginx的所有配置文件，该文件夹下包含nginx.conf文件，它是Nginx服务器的住配置文件，其他文件则是用    来配置Nginx的相关功能。
 
 html：该目录存放了Nginx服务器在运行过程中调用的一些html文件。
@@ -106,7 +106,7 @@ cd /opt/Nginx/Nginx-1.16.1_install/conf
 vim nginx.conf
 ```
 修改完成后如下图所示：
-![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161924951.png)
+![图片消失了!](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161924951.png)
 
 #### **5、启动Nginx服务器**
 
