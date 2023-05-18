@@ -12,7 +12,7 @@ categories:
 >
 
 ## 解决
-1. 通过**设置overflow: hidden;**生效了
+1. 通过 **设置overflow: hidden;** 生效了
 2. 有**hover**效果的情况下再次失效了
 3. 但是可以通过**设置transform属性**来解决
 

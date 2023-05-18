@@ -28,6 +28,15 @@ To force a start use “systemctl reset-failed docker.service” followed by “
 > daemon文件后缀格式造成重启/启动失败
  
 ## 解决方案
-### 1.进入docker目录下：cd /etc/docker
-### 2.修改daemon文件后缀：mv daemon.json daemon.conf
-### 3.重启/启动docker：systemctl start docker
+### 1.进入docker目录下：
+```shell
+cd /etc/docker
+```
+### 2.修改daemon文件后缀：
+```shell
+mv daemon.json daemon.conf
+```
+### 3.重启/启动docker：
+```shell
+systemctl start docker
+```

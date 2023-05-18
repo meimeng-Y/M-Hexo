@@ -10,7 +10,7 @@ categories:
 
 # cnpm使用报错
 ## 问题
-** cnpm使用报错throw err;^Error: Cannot find module 'fs/promises **
+**cnpm使用报错throw err;^Error: Cannot find module 'fs/promises**
 ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305172258415.png)
 ## 问题定位
 

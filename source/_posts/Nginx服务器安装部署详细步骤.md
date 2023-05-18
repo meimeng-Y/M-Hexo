@@ -12,7 +12,7 @@ Linux服务器操作系统：CentOs 8.1.1911
 Nginx版本：1.16.1（Linux）
 
 ### 安装步骤：
-#### **1. 安装GCC、automake、pcre、zlib和openssl **
+#### **1. 安装GCC、automake、pcre、zlib和openssl**
 
 可以通过如下指令去查看Linux服务器上是否已经安装pcre、zlib和openssl
 ```shell
@@ -26,18 +26,21 @@ rpm -qa pcre
 安装了以上三个第三方库，所以显示版本。
 
 如果没有安装以上三个库，鉴于以上Nginx运行的需求，我们需要执行以下代码：
-`yum -y install gcc gcc-c++ automake pcre pcre-devel zlib zlib-devel openssl openssl-devel`
+
+```shell
+yum -y install gcc gcc-c++ automake pcre pcre-devel zlib zlib-devel openssl openssl-devel
+```
 
 #### **2.下载Nginx服务器并解压**
 下载Nginx服务器本文提供了两种方式：
 A、通过官网进行下载，进入Nginx官网，网址：http://nginx.org/en/doload.html 本文Nginx版本为1.16.1，可以选择对应的版本进行下载。
 B、通过Linux进行下载，指令代码：
 
-``` shell
+```shell
 wget http://nginx.org/download/nginx-1.16.1.tar.gz
 ```
 本文通过第二种方式进行下载。
-```
+```shell
 //进入opt文件夹
 cd /opt
 
@@ -86,7 +89,7 @@ make
 //编译完成后，执行make的install命令安装Nginx服务器
 make install
 ```
-执行完成**make install**指令后，可以将工作目录定位到我们的安装目录，也就是上述的**/opt/Nginx/Nginx-1.16.1_install**文件夹，通过**ls -l**指令，可以看到该文件夹下出现以下几个文件夹：
+执行完成**make install**指令后，可以将工作目录定位到我们的安装目录，也就是上述的 **/opt/Nginx/Nginx-1.16.1_install**文件夹，通过**ls -l**指令，可以看到该文件夹下出现以下几个文件夹：
 ![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305161916958.png)
 conf：该目录存放了Nginx的所有配置文件，该文件夹下包含nginx.conf文件，它是Nginx服务器的住配置文件，其他文件则是用    来配置Nginx的相关功能。
 
@@ -97,7 +100,7 @@ logs：该目录存放了Nginx服务器的日志。
 sbin：该目录中只包含了一个文件-nginx，它就是Nginx服务器的主程序。
 
 #### **4.修改nginx.conf文件** 
-```
+```shell
 // 修改nginx.conf文件中端口，如修改成81
 cd /opt/Nginx/Nginx-1.16.1_install/conf
 vim nginx.conf

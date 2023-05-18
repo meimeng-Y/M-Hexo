@@ -7,7 +7,7 @@ categories:
 - [VUE,VUE2]
 ---
 
-父子组件传值通过**$emit和props**
+父子组件传值通过 **$emit和props**
 ### 构建父子组件
 假设父组件为：
 ```html
@@ -29,12 +29,14 @@ categories:
 ```
 
 ### 子组件向父组件传值
-**子组件向父组件传值利用的是 $emit**
-**我们想当点击按钮时将子组件中 message 的内容传递给父组件**
+> **子组件向父组件传值利用的是 $emit**
+> **点击按钮时将子组件中 message 的内容传递给父组件**
 
 #### 在子组件中
 1. 为 button 绑定 click 事件
-`<button @click="submit()"></button>`
+```html
+<button @click="submit()"></button>
+```
 2. 当触发点击事件时,在函数中使用 **$emit**
 ```html
 submit () {
@@ -48,7 +50,7 @@ submit () {
 	<child @childFn="parentFn"></child>
 </app>
 ```
-> childFn是子组件**$emit**的第一个参数
+> childFn是子组件 **$emit** 的第一个参数
 > parentFn 是父组件要触发的方法
 > 
 

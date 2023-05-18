@@ -1,5 +1,5 @@
 ---
-title:  SpringBootmaven导入jar失败
+title:  SpringBoot Maven导入jar失败
 date: 2022-10-20
 tags:
 - SpringBoot
@@ -9,7 +9,7 @@ categories:
 - [SpringBoot]
 ---
 
-# SpringBootmaven导入jar失败
+# SpringBoot Maven导入jar失败
 ## 报错信息
 ```sh
 Could not transfer artifact org.springframework.boot:spring-boot-starter-parent:pom:

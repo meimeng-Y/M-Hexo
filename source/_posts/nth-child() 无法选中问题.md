@@ -10,9 +10,9 @@ categories:
 ---
 
 # nth-child() 无法选中问题
-nth-child() 为 **<u>div选择器</u>**，无法对其他标签类型起效
+nth-child() 为<u>**div选择器**</u>，无法对其他标签类型起效
 
-当需要选择**<u>其他标签</u>**时使用nth-of-type（）
+当需要选择<u>**其他标签**</u>时使用nth-of-type（）
 
-**<u>type看类型，child不管类型只看次序</u>**
+<u>**type看类型，child不管类型只看次序**</u>
 

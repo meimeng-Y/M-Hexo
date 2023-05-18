@@ -41,4 +41,4 @@ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch xxxxx
 ```
 git push origin master --force --all
 ```
-这个过程其实是重新上传我们的repo, 比较耗时, 虽然跟删掉重新建一个repo有些类似, 但是好处是**<u>保留了原有的更新记录</u>**
+这个过程其实是重新上传我们的repo, 比较耗时, 虽然跟删掉重新建一个repo有些类似, 但是好处是<u>**保留了原有的更新记录**</u>

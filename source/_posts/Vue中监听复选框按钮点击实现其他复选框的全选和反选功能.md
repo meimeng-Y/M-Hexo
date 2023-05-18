@@ -33,7 +33,7 @@ categories:
   </div>
 ```
 
->>data中的数据
+> data中的数据
 ```js
 data() {
 return {
