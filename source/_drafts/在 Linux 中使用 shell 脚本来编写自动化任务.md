@@ -6,19 +6,19 @@ tags:
 - shell
 - Linux
 title: 在 Linux 中使用 shell 脚本来编写自动化任务
-updated: 2023-5-24T18:7:10.196+8:0
+updated: 2023-5-24T18:7:35.672+8:0
 ---
 ## 1.使用标准输出（stdout）捕获控制台输出
 
 在 shell 脚本中，你可以使用类似的方法将命令的标准输出捕获到变量中。例如，如果你想要将 `ls` 命令的输出保存到名为 `output` 的变量中，可以使用以下命令：
 
-```
+```shell
 output=$(ls)
 ```
 
 要输出多个变量的值，可以将它们一起传递给 `echo` 命令，并使用空格或其他分隔符将它们分开。例如，以下代码输出了变量 `name` 和 `age` 的值：
 
-```
+```shell
 echo $name is nameis$age years old.
 ```
 
@@ -38,6 +38,28 @@ echo $name is nameis$age years old.
 
 也可以在 Linux 系统上使用下面的命令来将脚本文件转换为 Linux 上的格式：
 
-```
+```shell
 sed -i 's/\r//' XXXXXXX.sh
 ```
+
+## 判断脚本的执行结果
+
+![](https://cdn.jsdelivr.net/gh/meimeng-Y/comments@main//imgs/202305241816358.png)
+
+脚本执行结果保存在**log**变量中
+
+```shell
+#!/bin/bash
+log=$(cd /root/Autoxb && python3 main.py)
+# 统计 "签到成功" 出现的次数
+count=$(echo "(echo"$log" | grep -o "签到成功" | wc -l)
+# 判断是否等于 4
+if [ $count -eq 4 ]; then
+    echo "四个成功"
+else
+    echo "没有四个成功，重新执行"
+    sleep 15
+    sh /root/Autogxy.sh
+fi
+```
+
